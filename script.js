@@ -34,22 +34,22 @@
 //     console.log(b[i])
 // }
 
-let btn1 = document.getElementById("btn1")
+// let btn1 = document.getElementById("btn1")
 
-btn1.addEventListener("click",()=>{
-    console.log("light")
-})
-
-
+// btn1.addEventListener("click",()=>{
+//     console.log("light")
+// })
 
 
 
-let sum =0;
-for (let i=1;i<=5;i++){
-     sum = sum+i;
+
+
+// let sum =0;
+// for (let i=1;i<=5;i++){
+//      sum = sum+i;
     
-}
- console.log(sum)
+// }
+//  console.log(sum)
 
 
 
@@ -57,23 +57,23 @@ for (let i=1;i<=5;i++){
 
 
 
- let sum1 =0;
- let i=1;
- while(i<=10){
-    sum = sum + i;
-    i++;
- }
-   console.log(sum)
+//  let sum1 =0;
+//  let i=1;
+//  while(i<=10){
+//     sum = sum + i;
+//     i++;
+//  }
+//    console.log(sum)
 
 
-   let sum2 =0;
- let a=1;
- do{
-     sum2=sum2 + a;
-     a++;
- }while(a<=20);
+//    let sum2 =0;
+//  let a=1;
+//  do{
+//      sum2=sum2 + a;
+//      a++;
+//  }while(a<=20);
 
-   console.log(sum2)
+//    console.log(sum2)
    
  
    
@@ -82,34 +82,50 @@ for (let i=1;i<=5;i++){
 
 
 
+// let name =document.getElementById("name").value;
+// let number = document.getElementById("mobilenumber").value;
+// let email = document.getElementById("email").value;
+// let address = document.getElementById("address").value;
+
+// let button= document.getElementById("btn");
+
+//  button.addEventListener("click" ,()=>{
+      
+// let name =document.getElementById("name").value;
+// let number = document.getElementById("mobilenumber").value;
+// let email = document.getElementById("email").value;
+// let address = document.getElementById("address").value;
+//      alert(`your name is ${name} yor number is ${number} your email is ${email} your email is ${address}`);
+//  })
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-btn1.addEventListener("dblclick",() =>{
-     console.log("dark")
+let name =document.getElementById("name").value;
+let number = document.getElementById("mobilenumber").value;
+let email = document.getElementById("email").value;
+let address = document.getElementById("address").value;
+let button= document.getElementById("btn");
+let ans=document.getElementById("ans");
+button.addEventListener("click",()=>{
+      
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// btn1.addEventListener("dblclick",() =>{
+//      console.log("dark")
+// })
 
